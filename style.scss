@@ -1,0 +1,358 @@
+.fb, .twt{
+    font-size: 14px;
+    &:hover{
+        color: #bcac76;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+}
+.phone{
+    font-size: 14px;
+    .fa-phone{
+        font-size: 18px;
+    }
+}
+.button-container{
+    .fa-chevron-down{
+        font-size: 10px;
+    }
+}
+.section-1{
+    background-image: url('/abstract-hand-drawn-organic-geometric-boho-blob-shapes-collection-png.webp');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    .top{
+        .left{
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 500;
+                i{
+                    font-size: 10px;
+                }
+                &:hover{
+                    color: black;
+                    transition: all 0.5s ease-in-out;
+                }
+            }
+        }
+    }
+    .right{
+        i{
+            font-size: 25px;
+        }
+        a{
+            &:hover{
+                color: #bcac76;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+    }
+    .bottom{
+        height: fit-content;
+        .image-slide{
+            position: relative;
+        }
+        .cover{
+            position: relative;
+            height: max-content;
+            width: max-content;
+            &::before{
+                content: '';
+                position: absolute;
+                bottom: 450px;
+                left: 100px;
+                width: 100%;
+                height: 100%;
+                background-image: url('/blob-design-shape-with-transparent-background-png.webp');
+                background-repeat: no-repeat;
+                background-size: 30%;
+                background-position: right;
+                transform: rotate(55deg);
+                z-index: -1;
+            }
+            p{
+                font-weight: 500;
+            }
+            .text{
+                text-transform: uppercase;
+            }
+            button{
+                a{
+                    font-weight: 700;
+                    font-size: 13px;
+                }
+                &:hover{
+                background-color: #bcac76;
+                color: #212529;
+                transition: all 0.2s ease-in-out;
+                }
+            }
+        }
+        .your-class{
+            max-width:100%;
+            overflow: hidden;
+            .image-slide{
+                width: 100%;
+                background-color: black;
+            }
+        }
+    }    
+}
+.section-2 {
+    .top {
+        .text-cnt {
+            .first {
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .bottom {
+        height: fit-content;
+        .first-raw {
+            .first-box {
+                transition: transform 0.5s;
+                width: fit-content;
+
+                img {
+                    max-width: 350px;
+                    height: auto;
+                }
+
+                .text {
+                    .price {
+                        font-weight: 700;
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1.05);
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            .second-box {
+                transition: transform 0.5s;
+                .left {
+                    margin-left: -110px;
+                    .text {
+                        margin-top: 80px;
+                        padding-right: 190px;
+                        p {                            
+                            line-height: 40px;
+                        }
+                    }
+                }
+                &:hover {
+                    transform: scale(1.05);
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+        .second-raw{
+            .first-box {
+                transition: transform 0.5s;
+                .left {
+                    margin-left: -100px;
+                    .text {
+                        margin-top: 80px;
+                        p {                            
+                            line-height: 40px;
+                        }
+                    }
+                }
+                &:hover {
+                    transform: scale(1.05);
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+            .second-box {
+                transition: transform 0.5s;        
+                img {
+                    max-width: 350px;
+                    height: auto;
+                }
+        
+                .text {
+                    .price {
+                        font-weight: 700;
+                    }
+                }
+        
+                &:hover {
+                    transform: scale(1.05);
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+        .third-raw{
+            .first-box{
+                transition: transform 0.5s;
+                width: fit-content;
+                .left{
+                    margin-left: -100px;
+                    .text {
+                        margin-top: 80px;
+                        p {                            
+                            line-height: 40px;
+                        }
+                    }
+                }
+                img{
+                    max-height: 250px;
+                }
+                &:hover {
+                    transform: scale(1.05);
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+            .second-box{
+                transition: transform 0.5s;
+                .left {
+                    margin-left: -110px;
+                    .text {
+                        margin-top: 80px;
+                        padding-right: 190px;
+                        p {                            
+                            line-height: 40px;
+                        }
+                    }
+                }
+                &:hover {
+                    transform: scale(1.05);
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.section-3{
+    .left{
+        button{
+            border: 1px solid black;
+            width: 130px;
+            height: 40px;
+        }
+    }
+    .sale{
+        margin-top: 18px;
+        background-color: #dc3545;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:70px;
+        height: 48px;
+        border-radius: 10%;
+        span{
+            color: white;
+            font-weight: 700;
+            font-size: 13px;
+        }
+    }
+    .count-down{
+        margin-top: 30px;
+        width: 540px;
+        height: 110px;
+        background-color: #fff;
+        h6{
+            color: #212529;
+            font-size: 22px !important;
+            font-weight: 700;
+        }
+    }
+}
+.section-4{
+    .bottom{
+        .pictures-cnt {
+            .first-raw,
+            .second-raw {
+                .pic1-cnt, .pic2-cnt, .pic3-cnt, .pic4-cnt{
+                    img {
+                        transition: opacity 0.3s ease-in-out;
+                    }
+                }                        
+                .pic1-cnt {
+                    &:hover {
+                        img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair-2.jpg');
+                        }
+                    }
+                }        
+                .pic2-cnt {
+                    &:hover {
+                        img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book-2.jpg');
+                        }
+                    }
+                }        
+                .pic3-cnt {
+                    &:hover {
+                        img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-2.jpg');
+                        }
+                    }
+                }        
+                .pic4-cnt {
+                    &:hover {
+                        img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3-3.jpg');
+                        }
+                    }
+                }
+            }
+        
+            .second-raw {
+                .pic1-cnt,
+                .pic2-cnt,
+                .pic3-cnt,
+                .pic4-cnt {
+                    .img {
+                        transition: transform 0.5s;
+                    }
+                }
+        
+                .pic1-cnt {
+                    &:hover {
+                        .img img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-2.jpg');
+                        }
+                    }
+                }
+        
+                .pic2-cnt {
+                    &:hover {
+                        .img img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock3-2.jpg');
+                        }
+                    }
+                }
+        
+                .pic3-cnt {
+                    &:hover {
+                        .img img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-2.jpg');
+                        }
+                    }
+                }
+        
+                .pic4-cnt {
+                    &:hover {
+                        .img img {
+                            content: url('https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-2.jpg');
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

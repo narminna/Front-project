@@ -1,0 +1,282 @@
+.fb, .twt {
+  font-size: 14px;
+}
+.fb:hover, .twt:hover {
+  color: #bcac76;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.phone {
+  font-size: 14px;
+}
+.phone .fa-phone {
+  font-size: 18px;
+}
+
+.button-container .fa-chevron-down {
+  font-size: 10px;
+}
+
+.section-1 {
+  background-image: url("/abstract-hand-drawn-organic-geometric-boho-blob-shapes-collection-png.webp");
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+.section-1 .top .left button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.section-1 .top .left button i {
+  font-size: 10px;
+}
+.section-1 .top .left button:hover {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+.section-1 .right i {
+  font-size: 25px;
+}
+.section-1 .right a:hover {
+  color: #bcac76;
+  transition: all 0.2s ease-in-out;
+}
+.section-1 .bottom {
+  height: fit-content;
+}
+.section-1 .bottom .image-slide {
+  position: relative;
+}
+.section-1 .bottom .cover {
+  position: relative;
+  height: max-content;
+  width: max-content;
+}
+.section-1 .bottom .cover::before {
+  content: "";
+  position: absolute;
+  bottom: 450px;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+  background-image: url("/blob-design-shape-with-transparent-background-png.webp");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right;
+  transform: rotate(55deg);
+  z-index: -1;
+}
+.section-1 .bottom .cover p {
+  font-weight: 500;
+}
+.section-1 .bottom .cover .text {
+  text-transform: uppercase;
+}
+.section-1 .bottom .cover button a {
+  font-weight: 700;
+  font-size: 13px;
+}
+.section-1 .bottom .cover button:hover {
+  background-color: #bcac76;
+  color: #212529;
+  transition: all 0.2s ease-in-out;
+}
+.section-1 .bottom .your-class {
+  max-width: 100%;
+  overflow: hidden;
+}
+.section-1 .bottom .your-class .image-slide {
+  width: 100%;
+  background-color: black;
+}
+
+.section-2 .top .text-cnt .first {
+  font-weight: 700;
+  font-size: 16px;
+}
+.section-2 .bottom {
+  height: fit-content;
+}
+.section-2 .bottom .first-raw .first-box {
+  transition: transform 0.5s;
+  width: fit-content;
+}
+.section-2 .bottom .first-raw .first-box img {
+  max-width: 350px;
+  height: auto;
+}
+.section-2 .bottom .first-raw .first-box .text .price {
+  font-weight: 700;
+}
+.section-2 .bottom .first-raw .first-box:hover {
+  transform: scale(1.05);
+  color: black;
+  cursor: pointer;
+}
+.section-2 .bottom .first-raw .second-box {
+  transition: transform 0.5s;
+}
+.section-2 .bottom .first-raw .second-box .left {
+  margin-left: -110px;
+}
+.section-2 .bottom .first-raw .second-box .left .text {
+  margin-top: 80px;
+  padding-right: 190px;
+}
+.section-2 .bottom .first-raw .second-box .left .text p {
+  line-height: 40px;
+}
+.section-2 .bottom .first-raw .second-box:hover {
+  transform: scale(1.05);
+  color: black;
+  cursor: pointer;
+}
+.section-2 .bottom .second-raw .first-box {
+  transition: transform 0.5s;
+}
+.section-2 .bottom .second-raw .first-box .left {
+  margin-left: -100px;
+}
+.section-2 .bottom .second-raw .first-box .left .text {
+  margin-top: 80px;
+}
+.section-2 .bottom .second-raw .first-box .left .text p {
+  line-height: 40px;
+}
+.section-2 .bottom .second-raw .first-box:hover {
+  transform: scale(1.05);
+  color: black;
+  cursor: pointer;
+}
+.section-2 .bottom .second-raw .second-box {
+  transition: transform 0.5s;
+}
+.section-2 .bottom .second-raw .second-box img {
+  max-width: 350px;
+  height: auto;
+}
+.section-2 .bottom .second-raw .second-box .text .price {
+  font-weight: 700;
+}
+.section-2 .bottom .second-raw .second-box:hover {
+  transform: scale(1.05);
+  color: black;
+  cursor: pointer;
+}
+.section-2 .bottom .third-raw .first-box {
+  transition: transform 0.5s;
+  width: fit-content;
+}
+.section-2 .bottom .third-raw .first-box .left {
+  margin-left: -100px;
+}
+.section-2 .bottom .third-raw .first-box .left .text {
+  margin-top: 80px;
+}
+.section-2 .bottom .third-raw .first-box .left .text p {
+  line-height: 40px;
+}
+.section-2 .bottom .third-raw .first-box img {
+  max-height: 250px;
+}
+.section-2 .bottom .third-raw .first-box:hover {
+  transform: scale(1.05);
+  color: black;
+  cursor: pointer;
+}
+.section-2 .bottom .third-raw .second-box {
+  transition: transform 0.5s;
+}
+.section-2 .bottom .third-raw .second-box .left {
+  margin-left: -110px;
+}
+.section-2 .bottom .third-raw .second-box .left .text {
+  margin-top: 80px;
+  padding-right: 190px;
+}
+.section-2 .bottom .third-raw .second-box .left .text p {
+  line-height: 40px;
+}
+.section-2 .bottom .third-raw .second-box:hover {
+  transform: scale(1.05);
+  color: black;
+  cursor: pointer;
+}
+
+.section-3 .left button {
+  border: 1px solid black;
+  width: 130px;
+  height: 40px;
+}
+.section-3 .sale {
+  margin-top: 18px;
+  background-color: #dc3545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 48px;
+  border-radius: 10%;
+}
+.section-3 .sale span {
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+}
+.section-3 .count-down {
+  margin-top: 30px;
+  width: 540px;
+  height: 110px;
+  background-color: #fff;
+}
+.section-3 .count-down h6 {
+  color: #212529;
+  font-size: 22px !important;
+  font-weight: 700;
+}
+
+.section-4 .bottom .pictures-cnt .first-raw .pic1-cnt img, .section-4 .bottom .pictures-cnt .first-raw .pic2-cnt img, .section-4 .bottom .pictures-cnt .first-raw .pic3-cnt img, .section-4 .bottom .pictures-cnt .first-raw .pic4-cnt img,
+.section-4 .bottom .pictures-cnt .second-raw .pic1-cnt img,
+.section-4 .bottom .pictures-cnt .second-raw .pic2-cnt img,
+.section-4 .bottom .pictures-cnt .second-raw .pic3-cnt img,
+.section-4 .bottom .pictures-cnt .second-raw .pic4-cnt img {
+  transition: opacity 0.3s ease-in-out;
+}
+.section-4 .bottom .pictures-cnt .first-raw .pic1-cnt:hover img,
+.section-4 .bottom .pictures-cnt .second-raw .pic1-cnt:hover img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair-2.jpg");
+}
+.section-4 .bottom .pictures-cnt .first-raw .pic2-cnt:hover img,
+.section-4 .bottom .pictures-cnt .second-raw .pic2-cnt:hover img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book-2.jpg");
+}
+.section-4 .bottom .pictures-cnt .first-raw .pic3-cnt:hover img,
+.section-4 .bottom .pictures-cnt .second-raw .pic3-cnt:hover img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-2.jpg");
+}
+.section-4 .bottom .pictures-cnt .first-raw .pic4-cnt:hover img,
+.section-4 .bottom .pictures-cnt .second-raw .pic4-cnt:hover img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3-3.jpg");
+}
+.section-4 .bottom .pictures-cnt .second-raw .pic1-cnt .img,
+.section-4 .bottom .pictures-cnt .second-raw .pic2-cnt .img,
+.section-4 .bottom .pictures-cnt .second-raw .pic3-cnt .img,
+.section-4 .bottom .pictures-cnt .second-raw .pic4-cnt .img {
+  transition: transform 0.5s;
+}
+.section-4 .bottom .pictures-cnt .second-raw .pic1-cnt:hover .img img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-2.jpg");
+}
+.section-4 .bottom .pictures-cnt .second-raw .pic2-cnt:hover .img img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock3-2.jpg");
+}
+.section-4 .bottom .pictures-cnt .second-raw .pic3-cnt:hover .img img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-2.jpg");
+}
+.section-4 .bottom .pictures-cnt .second-raw .pic4-cnt:hover .img img {
+  content: url("https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-2.jpg");
+}
+
+/*# sourceMappingURL=style.css.map */

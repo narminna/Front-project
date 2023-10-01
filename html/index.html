@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<header>
+    <div class="header-cnt h-[54px] flex justify-between items-center py-3 px-12 bg-[#e9ecef]">
+        <div class="left flex">
+            <div class="fb  mr-3"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="twt mr-7"><i class="fa-brands fa-twitter"></i></div>
+            <div class="phone"><i class="fa-solid fa-phone mr-2"></i><span>020-800-456-747</span></div>
+        </div>
+        <div class="center flex"><span class="text-[15px]">Free in-store delivery</span></div>
+        <div class="right flex">
+            <div class="language relative">
+                <div class="button-container flex justify-center items-center mr-[35px]">                    
+                    <button id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" class="group hover:text-yellow-500 focus:outline-none flex justify-center items-center gap-1" type="button"><a href="#" class="text-[14px]">English</a><i class="fa-solid fa-chevron-down"></i></button>
+                    <div id="dropdownDelay" class="absolute flex justify-end hidden mt-2 bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                        <ul class="py-2 text-sm text-gray-700">
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">German</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">French</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>               
+            </div>
+            <div class="currency">
+                <div class="button-container relative">                    
+                    <button id="dropdownCurrency" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" class="" type="button">USD <i class="fa-solid fa-chevron-down"></i></button>
+
+                    <div id="dropdownDelayCurrency" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg absolute shadow w-44 dark:bg-gray-700">
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDelayButton">
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">EUR</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">GPB</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="section-1">
+        <div class="top">
+            <div class="top-container flex justify-between items-center px-12 mt-[20px]">
+                <div class="left flex text-[16px]">
+                    <button class="mr-6"><span class="font-medium">Varkala</span></button>
+                    <button class="mr-4 flex gap-1"><span>Home</span><i class="fa-solid fa-chevron-down text-[10px]"></i></button>
+                    <button class="mr-4 gap-1 text-[rgba(0,0,0,0.5)]"><span>Shop</span><i class="fa-solid fa-chevron-down"></i></button>
+                    <button class="mr-4 gap-1 text-[rgba(0,0,0,0.5)]"><span>Icons</span><i class="fa-solid fa-chevron-down"></i></button>
+                    <button class="mr-4 gap-1 text-[rgba(0,0,0,0.5)]"><span>Pages</span><i class="fa-solid fa-chevron-down"></i></button>
+                    <button class="mr-4 gap-1 text-[rgba(0,0,0,0.5)]"><span>Docs</span><i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="center">
+                    <div class="flex justify-center items-center search-container border-b-2 border-grey w-[260px] h-[40px]">
+                        <input type="text" name="Hello" id="" placeholder="Search" aria-label="Search" aria-describedby="button-search" class="font-medium">
+                        <i class="fa-solid fa-magnifying-glass text-[19px]"></i>
+                    </div>
+                </div>
+                <div class="right flex">
+                    <div class="right-container flex gap-[20px] items-center">
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                        <a href="#" class="relative"><i class="fa-regular fa-heart"></i>
+                            <div class="notification absolute left-0 bottom-[15px] bg-[#bcac76] rounded-full h-[20px] w-[20px] flex justify-center items-center mx-[14px]"><span class="text-[13px] text-white">3</span></div>
+                        </a>
+                        <a href="#" class="relative"><i class="fa-solid fa-bag-shopping"></i>
+                            <div class="notification absolute left-0 bottom-[15px] bg-[#bcac76] rounded-full h-[20px] w-[20px] flex justify-center items-center mx-[14px]"><span class="text-[13px] text-white">5</span></div>
+                        </a>
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom ">
+            <div id="image-slider">
+                <div class="slider-area">
+                    <div class="image-slide relative">
+                        <div class="cover flex items-center mx-[115px]">
+                            <div class="mb-[130px]">                                
+                                <span class="text-[16px] text-[#212529] tracking-[5.48px]"><p class="mt-[30px]">TIME IS ALMOST UP</p></span>
+                                <h2 class="text-[72px] font-medium w-[450px] mt-[20px] leading-none text-[#212529]">Design clocks on sale</h2>
+                                <div class="button-container">
+                                    <button class="border-[1px] text-[#bcac76] border-[#bcac76] font-medium mt-[65px] h-[40px] w-[200px] text-[12.8px]">
+                                        <a href="#" class="tracking-[4.8px]">START SHOPPING</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="image-container pb-[160px] px-[200px]">
+                                <img class="h-[500px] w-[350px] z-0" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-transparent.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-slide">
+                        <div class="cover flex items-center mx-[115px]">
+                            <div class="left w-[550px] mb-[160px]">                                
+                                <span class="text text-[16px] text-[#212529] mt-[50px] tracking-[5.48px]"><p class="mt-[40px]">Our all-time favourites</p></span>
+                                <h2 class="text-[72px] font-medium w-[550px] mt-[18px] leading-none text-[#212529]">Black & White</h2>
+                                <div class="lower-txt mt-[10px]"><p class="text-[#868e96] text-[16px]">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit</p></div>
+                                <div class="button-container">
+                                    <button class="border-[1px] text-[#bcac76] border-[#bcac76] font-medium mt-[45px] h-[40px] w-[200px] text-[12.8px]">
+                                        <a href="#" class="tracking-[4.8px]">DISCOVER MORE</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="image-container pb-[160px] px-[200px]">
+                                <img class="h-[500px] w-[350px] z-0" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-transparent.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-slide ">
+                        <div class="cover flex items-center mx-[115px]">
+                            <div class="left w-[550px] mb-[160px]">                                
+                                <span class="text text-[16px] text-[#212529] mt-[50px] tracking-[5.48px]"><p class="mt-[40px]">Our all-time favourites</p></span>
+                                <h2 class="text-[72px] font-medium w-[550px] mt-[18px] leading-none text-[#212529]"><p>Boxxez</p></h2>
+                                <div class="lower-txt mt-[10px]"><p class="text-[#868e96] text-[16px]">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit</p></div>
+                                <div class="button-container">
+                                    <button class="border-[1px] text-[#bcac76] border-[#bcac76] font-medium mt-[45px] h-[40px] w-[200px] text-[12.8px]">
+                                        <a href="#" class="tracking-[4.8px]">DISCOVER MORE</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="image-container pb-[160px] px-[200px]">
+                                <img class="h-[500px] w-[350px] z-0" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-transparent.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="section2-cnt mx-[115px]">
+            <div class="top">
+                <div class="text-cnt">
+                    <div class=" first text-[#868e96]"><p>TOP CHOICES</p></div>
+                    <div class="second text-[#212529]"><p class=" text-[28px] font-bold">Popular this weak</p></div>
+                    <div><p class="text-[#868e96] text-[20px] mt-[10px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                </div>
+            </div>
+            <div class="bottom mt-[110px]">
+                <div class="first-raw flex justify-between">
+                    <div class="first-box">
+                        <div class="picture">
+                            <a href="#">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book-sq.jpg" alt="">
+                            </a>
+                            <div class="text mx-[20px]">
+                                <p class="w-[50px] text-[25px] text-[#212529] font-bold">Furniture source book</p>
+                                <p class="price text-[#868e96] text-[bold]">$39.90</p>
+                            </div>
+                            <div class="button mt-[25px] mx-[20px]">
+                                <button><p class="text-[#212529] text-[12px] tracking-[4.8px] font-extrabold leading-6">SHOP NOW</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-box flex relative">
+                        <div class="left absolute">                                
+                            <div class="text">
+                                <p class="w-[50px] text-[35px] text-[#212529] font-bold">Norwegg design chair</p>
+                                <p class="price text-[#868e96] text-[bold]">$139.90</p>
+                            </div>
+                            <div class="button mt-[25px]">
+                                <button><p class="text-[#212529] text-[13px] tracking-[4.8px] font-bold leading-6">SHOP NOW</p></button>
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <a href="#">
+                                <img class="second-picture h-[540px]" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair-2-sq.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-raw flex justify-between mt-[140px]">                    
+                    <div class="first-box mx-[115px] flex relative">
+                        <div class="left absolute">                                
+                            <div class="text">
+                                <p class="w-[50px] text-[35px] text-[#212529] font-bold">Sunn Clock</p>
+                                <p class="price text-[#868e96] text-[bold]">$89.90</p>
+                            </div>
+                            <div class="button mt-[25px]">
+                                <button><p class="text-[#212529] text-[13px] tracking-[4.8px] font-bold leading-6">SHOP NOW</p></button>
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <a href="#">
+                                <img class="second-picture h-[540px]" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-sq.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="second-box mt-[95px]">
+                        <div class="picture">
+                            <a href="#">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-sq.jpg" alt="">
+                            </a>
+                            <div class="text mx-[20px]">
+                                <p class="w-[50px] text-[25px] text-[#212529] font-bold">Accessory boxes</p>
+                                <p class="price text-[#868e96] text-[bold]">$29.90</p>
+                            </div>
+                            <div class="button mt-[25px] mx-[20px]">
+                                <button><p class="text-[#212529] text-[12px] tracking-[4.8px] font-extrabold leading-6">SHOP NOW</p></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-raw flex justify-between mt-[70px]">
+                    <div class="first-box mt-[15px]">
+                        <div class="picture">
+                            <a href="#">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock2-sq.jpg" alt="">
+                            </a>
+                            <div class="text mx-[20px]">
+                                <p class="w-[50px] text-[25px] text-[#212529] font-bold">Swiss Minutes Black</p>
+                                <p class="price font-bold text-[#868e96] text-[bold]">$149.90</p>
+                            </div>
+                            <div class="button mt-[25px] mx-[20px]">
+                                <button><p class="text-[#212529] text-[12px] tracking-[4.8px] font-extrabold leading-6">SHOP NOW</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-box flex relative">
+                        <div class="left absolute">                                
+                            <div class="text">
+                                <p class="w-[200px] text-[35px] text-[#212529] font-bold">Korona dining room chair</p>
+                                <p class="price font-bold text-[#868e96] text-[bold]">$39.90</p>
+                            </div>
+                            <div class="button mt-[25px]">
+                                <button><p class="text-[#212529] text-[13px] tracking-[4.8px] font-bold leading-6">SHOP NOW</p></button>
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <a href="#">
+                                <img class="second-picture h-[540px] w-[635px]" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3-3-sq.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3 mt-[100px] bg-[#ebf7ff] h-[550px]">
+        <div class="section-cnt flex justify-between flex justify-center items-center">
+            <div class="left w-[600px] mx-[115px] mt-[45px]">
+                <p class="font-bold text-[#dc3545] tracking-[3.2px] text-[17px]">DEAL OF THE WEEK</p>
+                <p class="text-[40px] font-bold text-[#212529] mt-[10px] leading-[50px]">Black and the white Nordegg chairs</p>
+                <div class="price mt-[20px] text-[#868e96] text-[16px] font-semibold gap-3 flex">
+                    <del class="">$129.00</del><p>$79.00</p>
+                </div>
+                <div class="sale">
+                    <span>$50 off</span>
+                </div>
+                <div class="count-down gap-[90px] flex justify-center items-center">
+                    <div class="days font-medium">
+                        <h6 class="flex justify-center text-[20px]">11</h6>
+                        <span class="text-[#868e96]">days</span>
+                    </div>
+                    <div class="hours font-medium">
+                        <h6 class="flex justify-center text-[20px]">22</h6>
+                        <span class="text-[#868e96]">hours</span>
+                    </div>
+                    <div class="minutes font-medium">
+                        <h6 class="flex justify-center text-[20px]">43</h6>
+                        <span class="text-[#868e96]">minutes</span>
+                    </div>
+                    <div class="seconds font-medium">
+                        <h6 class="flex justify-center text-[20px]">20</h6>
+                        <span class="text-[#868e96]">seconds</span>
+                    </div>
+                </div>
+                <button class="mt-[30px]"><span class="text-[12px] text-[#212529] font-bold">SHOP NOW</span></button>
+            </div>
+            <div class="right mx-[115px]">
+                <div class="pic-cnt">
+                    <img class="h-[420px]" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-transparent.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-4">
+        <div class="section-cnt mt-[90px]">
+            <div class="top mx-[115px] w-[1000px]">
+                <p class="text-[30px] font-bold text-[#212529]">New Arrivals</p>
+                <p class="mt-[10px] text-[#868e96] tracking-tight font-normal text-[20px]">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections</p>
+                <div class="list flex items-center gap-[600px] mt-[50px]">
+                    <ul class="flex gap-[16px] font-medium">
+                        <li><a class="flex w-[90px]" href="#">All Products</a></li>
+                        <li><a class="text-[#868e96]" href="#">Chairs</a></li>
+                        <li><a class="text-[#868e96]" href="#">Books</a></li>
+                        <li><a class="text-[#868e96]" href="#">Clothes</a></li>
+                        <li><a class="text-[#868e96]" href="#">Accessories</a></li>
+                    </ul>
+                    <div><span class="flex justify-end font-bold text-[#9a884b] w-[150px] tracking-[4px] text-[13px]">ALL PRODUCTS</span></div>
+                </div>
+            </div>
+            <div class="bottom mx-[115px]">
+                <div class="pictures-cnt">
+                    <div class="first-raw flex mt-[35px] gap-[30px]">                        
+                        <div class="pic1-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]">
+                                <span class="font-bold text-[#212529]">Norwegg Chair</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                        <div class="pic2-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]">
+                                <span class="font-bold text-[#212529]">Book</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                        <div class="pic3-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]]">
+                                <span class="font-bold text-[#212529]">Another Chair</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                        <div class="pic4-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]">
+                                <span class="font-bold text-[#212529]">Your new chair</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-raw mt-[46px] flex gap-[30px]">
+                        <div class="pic1-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]">
+                                <span class="font-bold text-[#212529]">Clock</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                        <div class="pic2-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock3.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]">
+                                <span class="font-bold text-[#212529]">Clock</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                        <div class="pic3-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]">
+                                <span class="font-bold text-[#212529]">Another box</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                        <div class="pic4-cnt">
+                            <div class="img">
+                                <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box2.jpg" alt="">
+                            </div>
+                            <div class="text mt-[12px]">
+                                <span class="font-bold text-[#212529]">Beige</span>
+                                <div class="price mt-[5px] text-[14px] font-medium text-[#adb5bd]">$40.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="main.js"></script>
+</html>
